@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Day 01 - Chronal Calibration/Day1.fs" />
+    <Compile Include="Day 02 - Inventory Management System/Day2.fs" />
+    <Compile Include="Day 03 - No Matter How You Slice It/Day3.fs" />
+    <Compile Include="Day 04 - Repose Record/Day4.fs" />
+    <Compile Include="Day 05 - Alchemical Reduction/Day5.fs" />
+    <Compile Include="Day 06 - Chronal Coordinates/Day6.fs" />
+    <Compile Include="Day 07 - The Sum of Its Parts/Day7.fs" />
+    <Compile Include="Day 08 - Memory Maneuver/Day8.fs" />
+    <Compile Include="Day 09 - Marble Mania/Day9.fs" />
+    <Compile Include="Day 10 - The Stars Align/Day10.fs" />
+    <Compile Include="Day 11 - Chronal Charge/Day11.fs" />
+    <Compile Include="Day 12 - Subterranean Sustainability/Day12.fs" />
+    <Compile Include="Day 13 - Mine Cart Madness/Day13.fs" />
+    <Compile Include="Day 14 - Chocolate Charts/Day14.fs" />
+  </ItemGroup>
+
+  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  
+</Project>
